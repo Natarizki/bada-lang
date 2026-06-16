@@ -1,0 +1,27 @@
+fn tambah(int a, int b) -> int {
+    a + b
+}
+
+fn main() {
+    let a: int = 5;
+    let b: int = 10;
+    let c: int = tambah(a, b);
+
+    printf!("Total: {}", c);
+
+    if c > 10 {
+        printf!("Besar: {}", c);
+    } else {
+        printf!("Kecil: {}", c);
+    }
+
+    let mut i: int = 0;
+    while i < 3 {
+        printf!("while i = {}", i);
+        i = i + 1;
+    }
+
+    for j in 0..5 {
+        printf!("for j = {}", j);
+    }
+}

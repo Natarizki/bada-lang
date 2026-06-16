@@ -1,0 +1,19 @@
+#include <iostream>
+#include <vector>
+
+fn tambah(int a, int b) -> int {
+    a + b
+}
+
+fn main() {
+    let x: int = tambah(10, 20);
+    printf!("Bada result: %d", x);
+
+    cxx {
+        std::vector<std::string> v = {"hello", "from", "cpp"};
+        for (auto& s : v) {
+            std::cout << s << " ";
+        }
+        std::cout << std::endl;
+    }
+}

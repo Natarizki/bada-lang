@@ -1,0 +1,7 @@
+fn main() {
+    printf!("Before ASM");
+    asm {
+        nop
+    }
+    printf!("After ASM");
+}

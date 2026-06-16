@@ -1,0 +1,15 @@
+#include <iostream>
+
+fn main() {
+    printf!("=== Bada + CXX + ASM ===");
+
+    cxx {
+        std::cout << "C++ mode active" << std::endl;
+    }
+
+    asm {
+        nop
+    }
+
+    printf!("All systems go!");
+}

@@ -1,0 +1,13 @@
+use bada::io;
+use bada::math;
+
+fn main() {
+    printf!("=== Bada Stdlib Test ===");
+
+    // bada::math via C++
+    cxx {
+        double result = sqrt(144.0);
+        printf("sqrt(144) = %.0f\n", result);
+        printf("max(10,20) = %d\n", std::max(10, 20));
+    }
+}

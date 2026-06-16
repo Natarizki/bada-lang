@@ -1,0 +1,7 @@
+/data/data/com.termux/files/home/bada-lang/build/CMakeFiles/bada.dir
+/data/data/com.termux/files/home/bada-lang/build/CMakeFiles/edit_cache.dir
+/data/data/com.termux/files/home/bada-lang/build/CMakeFiles/rebuild_cache.dir
+/data/data/com.termux/files/home/bada-lang/build/CMakeFiles/list_install_components.dir
+/data/data/com.termux/files/home/bada-lang/build/CMakeFiles/install.dir
+/data/data/com.termux/files/home/bada-lang/build/CMakeFiles/install/local.dir
+/data/data/com.termux/files/home/bada-lang/build/CMakeFiles/install/strip.dir

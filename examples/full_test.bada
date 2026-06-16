@@ -1,0 +1,63 @@
+#include <stdio.h>
+#include <math.h>
+#include <string.h>
+
+fn factorial(int n) -> int {
+    if n <= 1 {
+        return 1;
+    }
+    return n * factorial(n - 1);
+}
+
+fn max(int a, int b) -> int {
+    if a > b {
+        return a;
+    }
+    return b;
+}
+
+fn main() {
+    // Variables
+    let a: int = 10;
+    let b: int = 20;
+    let mut result: int = 0;
+
+    // Arithmetic
+    result = a + b;
+    printf!("a + b = %d", result);
+    result = a * b;
+    printf!("a * b = %d", result);
+
+    // If/else
+    if a > b {
+        printf!("a lebih besar");
+    } else {
+        printf!("b lebih besar");
+    }
+
+    // While
+    let mut i: int = 0;
+    while i < 5 {
+        printf!("while: %d", i);
+        i = i + 1;
+    }
+
+    // For
+    for j in 0..5 {
+        printf!("for: %d", j);
+    }
+
+    // Functions
+    let f: int = factorial(5);
+    printf!("factorial(5) = %d", f);
+
+    let m: int = max(a, b);
+    printf!("max(10, 20) = %d", m);
+
+    // Downgrade: C stdlib
+    let x: int = abs(-99);
+    printf!("abs(-99) = %d", x);
+
+    let len: int = strlen("hello bada");
+    printf!("strlen = %d", len);
+}

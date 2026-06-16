@@ -1,0 +1,2 @@
+TERMUX_SUBPKG_INCLUDE="include/"
+TERMUX_SUBPKG_DESCRIPTION="Bada language headers"

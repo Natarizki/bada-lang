@@ -1,0 +1,31 @@
+const MAX: int = 100;
+const PI: float = 3.14159;
+
+fn main() {
+    // Arrays
+    let arr: [int] = [10, 20, 30, 40, 50];
+    printf!("arr[0] = %d", arr[0]);
+    printf!("arr[2] = %d", arr[2]);
+
+    // Type casting
+    let x: int = 42;
+    let y: float = x as float;
+    printf!("cast: %d", x);
+
+    // Constants
+    printf!("MAX = %d", MAX);
+
+    // Range inclusive
+    for i in 0..=4 {
+        printf!("inclusive: %d", i);
+    }
+
+    // Break & Continue
+    let mut i: int = 0;
+    while i < 10 {
+        if i == 3 { i = i + 1; continue; }
+        if i == 6 { break; }
+        printf!("loop: %d", i);
+        i = i + 1;
+    }
+}

@@ -1,0 +1,10 @@
+struct Point {
+    int x;
+    int y;
+}
+
+fn main() {
+    let p: Point = Point { x: 10, y: 20 };
+    printf!("x = %d", p.x);
+    printf!("y = %d", p.y);
+}

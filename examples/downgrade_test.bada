@@ -1,0 +1,9 @@
+#include <math.h>
+#include <stdio.h>
+
+fn main() {
+    let a: int = 25;
+    let b: int = abs(-42);
+    printf!("abs(-42) = %d", b);
+    printf!("nilai a = %d", a);
+}

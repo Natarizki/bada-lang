@@ -1,0 +1,10 @@
+import math;
+
+fn main() {
+    let x: int = math::add(5, 10);
+    let y: int = math::multiply(3, 4);
+    let z: int = math::square(7);
+    printf!("add(5,10) = %d", x);
+    printf!("mul(3,4) = %d", y);
+    printf!("square(7) = %d", z);
+}

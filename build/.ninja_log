@@ -1,0 +1,8 @@
+# ninja log v7
+3	6213	1781653776859984591	CMakeFiles/bada.dir/src/error.cpp.o	566aa85dfc2cf0ca
+8	8320	1781653776863984591	CMakeFiles/bada.dir/src/lexer.cpp.o	e74aa806702c986c
+12	11227	1781653776867984591	CMakeFiles/bada.dir/src/transpiler.cpp.o	156ff11e3b3528f
+9	16563	1781653776867984591	CMakeFiles/bada.dir/src/parser.cpp.o	1a090cc65ee0d69e
+2	19263	1781653776859984591	CMakeFiles/bada.dir/src/main.cpp.o	666d5b0afd294d2f
+10	22189	1781653776867984591	CMakeFiles/bada.dir/src/codegen.cpp.o	c2752ee9ff8a0978
+22189	22539	1781653799047984575	bada	5d311de39a7686dc

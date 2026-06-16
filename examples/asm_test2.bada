@@ -1,0 +1,9 @@
+fn main() {
+    printf!("Testing ARM64 ASM");
+    asm {
+        mov x0, #0
+        nop
+        nop
+    }
+    printf!("ARM64 ASM done!");
+}

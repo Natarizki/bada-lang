@@ -1,0 +1,51 @@
+// Test v1.2 features
+#include <cstdio>
+// 1. Constants
+const MAX: int = 100;
+
+// 2. Closures
+fn apply(int x) -> int {
+    let doubler = fn(int n) -> int { n * 2 };
+    doubler(x)
+}
+
+// 3. Multiple return
+fn minmax(int a, int b) -> int, int {
+    return a, b;
+}
+
+fn main() {
+    // Constants
+    printf!("MAX = %d", MAX);
+
+    // Closures
+    let result: int = apply(5);
+    printf!("apply(5) = %d", result);
+
+    // Multiple return + tuple destructure
+    let (mn, mx) = minmax(3, 7);
+    printf!("min = %d", mn);
+    printf!("max = %d", mx);
+
+    // Arrays
+    let arr: [int] = [10, 20, 30];
+    printf!("arr[1] = %d", arr[1]);
+
+    // Break/continue
+    let mut i: int = 0;
+    while i < 5 {
+        if i == 3 { break; }
+        printf!("i = %d", i);
+        i = i + 1;
+    }
+
+    // Range inclusive
+    for j in 1..=3 {
+        printf!("j = %d", j);
+    }
+
+    // Cast
+    let x: int = 42;
+    let y: float = x as float;
+    printf!("cast ok");
+}
