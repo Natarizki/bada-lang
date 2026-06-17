@@ -1,6 +1,6 @@
 TERMUX_PKG_HOMEPAGE="https://github.com/Natarizki/bada-lang"
 TERMUX_PKG_DESCRIPTION="Bada programming language compiler - hybrid C with Rust safety"
-TERMUX_PKG_LICENSE="MIT"
+TERMUX_PKG_LICENSE="Apache-2.0"
 TERMUX_PKG_MAINTAINER="Natarizki <natarizki@github.com>"
 TERMUX_PKG_VERSION="1.2.0"
 TERMUX_PKG_SRCURL="https://github.com/Natarizki/bada-lang/archive/refs/tags/v1.2.0.tar.gz"
